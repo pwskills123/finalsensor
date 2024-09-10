@@ -237,7 +237,8 @@ newgrp docker
 4. Start the Docker service and enable it to start on boot:
 ```bash
 sudo service docker start
-sudo chkconfig docker on
+sudo chkconfig docker on (if this not works check below)
+sudo systemctl enable docker
 
 ```
 
